@@ -1,0 +1,5 @@
+reference,candidate,precision,recall,f1
+The company increased its revenue.,The company's revenue rose.,0.943620502948761,0.9393374919891357,0.9414741396903992
+The company increased its revenue.,The company decreased its revenue.,0.9838571548461914,0.9838571548461914,0.9838571548461914
+The company increased its revenue.,The weather is cold today.,0.8626399040222168,0.8042306900024414,0.8324118852615356
+Revenue increased by 12%.,Revenue increased by 72%.,0.9823894500732422,0.9823894500732422,0.9823894500732422
