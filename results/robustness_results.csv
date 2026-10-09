@@ -1,0 +1,26 @@
+reference,candidate,category,precision,recall,f1
+The company increased its revenue.,The company's revenue rose.,paraphrase,0.943620502948761,0.9393374919891357,0.9414741396903992
+The meeting starts at nine.,The meeting begins at 9 o'clock.,paraphrase,0.9345729351043701,0.9841369390487671,0.9587147831916809
+The dog is sleeping on the sofa.,A dog is asleep on the couch.,paraphrase,0.9723031520843506,0.9723031520843506,0.9723031520843506
+The team won the match.,The team was victorious in the game.,paraphrase,0.9727791547775269,0.9829879999160767,0.9778569340705872
+The temperature decreased overnight.,It became colder during the night.,paraphrase,0.9407646059989929,0.941493809223175,0.9411290884017944
+The company increased its revenue.,The company did not increase its revenue.,negation,0.9224985837936401,0.9429904818534851,0.9326320290565491
+The patient has a fever.,The patient has no fever.,negation,0.9722982048988342,0.986045241355896,0.9791234731674194
+The team won the match.,The team lost the match.,contradiction,0.9824223518371582,0.98822021484375,0.9853127598762512
+The store is open today.,The store is not open today.,negation,0.9734228849411011,0.9846451282501221,0.9790018796920776
+The temperature increased.,The temperature decreased.,contradiction,0.9906864166259766,0.9906864166259766,0.9906864166259766
+Revenue increased by 12%.,Revenue increased by 72%.,number_change,0.9823894500732422,0.9823894500732422,0.9823894500732422
+The company hired 20 workers.,The company hired 200 workers.,number_change,0.9939090013504028,0.9939090013504028,0.9939090013504028
+The journey took 30 minutes.,The journey took 13 minutes.,number_change,0.9844527244567871,0.9844527244567871,0.9844527244567871
+The price was $50.,The price was $500.,number_change,0.9914608597755432,0.9914608597755432,0.9914608597755432
+The population reached 1 million.,The population reached 10 million.,number_change,0.9902316331863403,0.9902316331863403,0.9902316331863403
+Microsoft announced a new product.,Google announced a new product.,entity_change,0.9811667203903198,0.9742189049720764,0.9776804447174072
+Paris is the capital of France.,Rome is the capital of France.,entity_change,0.963699221611023,0.9756340384483337,0.9696299433708191
+Maria visited Sydney last week.,Maria visited Melbourne last week.,entity_change,0.9888035655021667,0.9888035655021667,0.9888035655021667
+The novel was written by Jane Austen.,The novel was written by Charles Dickens.,entity_change,0.9759849905967712,0.9654737710952759,0.9707009792327881
+The meeting is on Monday.,The meeting is on Friday.,entity_change,0.992458701133728,0.992458701133728,0.992458701133728
+The company reported higher profits.,The company reported higher profits. The sky is blue.,irrelevant_addition,0.9130555391311646,0.9630624055862427,0.9373924732208252
+The cat slept on the chair.,The cat slept on the chair. The ocean is very deep.,irrelevant_addition,0.9279073476791382,0.9782413244247437,0.9524097442626953
+The team won the final.,The team won the final and received a $10 million bonus.,unsupported_addition,0.9100860357284546,0.9825630784034729,0.9449368119239807
+The report describes sales growth.,The report describes sales growth and confirms fraud.,unsupported_addition,0.9337126612663269,0.9722163677215576,0.9525755643844604
+The train arrived at noon.,The train arrived at noon. It was carrying 500 passengers.,unsupported_addition,0.9264014959335327,0.9796587228775024,0.9522860646247864
