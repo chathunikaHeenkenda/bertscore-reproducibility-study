@@ -1,0 +1,10 @@
+Python: 3.13.5
+OS: Linux-6.12.94+-x86_64-with-glibc2.41
+Processor: x86_64
+CPU cores: 8
+torch: 2.14.1+cpu
+transformers: 5.19.0
+bert-score (pip): 0.3.13
+CUDA available: False
+GPU: none (CPU only)
+BERTScore model: roberta-large (layer 17), idf=False, no baseline rescaling

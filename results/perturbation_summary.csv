@@ -1,0 +1,8 @@
+type,expected_quality,bertscore_p,bertscore_r,bertscore_f1,bleu,rougeL
+paraphrase,high,0.9664,0.9702,0.9683,25.632,0.4636
+lexical_variation,high,0.9899,0.9902,0.99,61.6345,0.8278
+negation,low,0.9763,0.9745,0.9754,65.8799,0.842
+numerical_change,low,0.9909,0.9912,0.991,72.9273,0.896
+entity_substitution,low,0.9879,0.9889,0.9884,84.4159,0.92
+irrelevant_addition,low,0.9472,0.9878,0.967,63.2753,0.8277
+hallucination,low,0.9531,0.9927,0.9725,64.9107,0.8337

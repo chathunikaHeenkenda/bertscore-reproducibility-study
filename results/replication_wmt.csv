@@ -1,0 +1,4 @@
+metric,pearson_r,kendall_tau,lp,year,n,min_annotators,model,paper_pearson
+bertscore_f1,0.4949,0.3527,de-en,2017,500,1,roberta-large,0.745
+bleu,0.2944,0.1925,de-en,2017,500,1,-,0.432
+rougeL,0.3494,0.2346,de-en,2017,500,1,-,n/a

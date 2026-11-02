@@ -1,0 +1,13 @@
+high_quality_anchor,low_quality_type,BERTScore_F1,BLEU,ROUGE-L
+paraphrase,negation,0.3,0.075,0.0
+paraphrase,numerical_change,0.0,0.0,0.0
+paraphrase,entity_substitution,0.05,0.0,0.0
+paraphrase,irrelevant_addition,0.6,0.0,0.0
+paraphrase,hallucination,0.35,0.025,0.0
+paraphrase,ALL,0.26,0.02,0.0
+lexical_variation,negation,0.825,0.35,0.375
+lexical_variation,numerical_change,0.425,0.125,0.125
+lexical_variation,entity_substitution,0.525,0.075,0.075
+lexical_variation,irrelevant_addition,0.975,0.4,0.525
+lexical_variation,hallucination,0.95,0.425,0.425
+lexical_variation,ALL,0.74,0.275,0.305

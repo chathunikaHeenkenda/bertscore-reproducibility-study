@@ -1,0 +1,7 @@
+idf,component,pearson_r,kendall_tau,n
+False,P,0.5207,0.3667,500
+False,R,0.5242,0.3621,500
+False,F1,0.5374,0.3757,500
+True,P,0.5239,0.3588,500
+True,R,0.5361,0.3639,500
+True,F1,0.5445,0.3704,500
