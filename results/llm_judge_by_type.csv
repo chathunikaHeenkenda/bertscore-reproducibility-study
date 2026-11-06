@@ -1,0 +1,8 @@
+type,expected_quality,judge_mean,judge_argmax_mean,bertscore_f1
+paraphrase,high,4.901,4.9,0.9683
+lexical_variation,high,4.929,5.0,0.99
+negation,low,2.4818,2.275,0.9754
+numerical_change,low,3.3845,3.4,0.991
+entity_substitution,low,3.5672,3.575,0.9884
+irrelevant_addition,low,3.6717,3.675,0.967
+hallucination,low,4.4869,4.675,0.9725

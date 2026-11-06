@@ -1,0 +1,9 @@
+anchor,metric,n_pairs,accuracy
+paraphrase,BERTScore_F1,200,0.26
+paraphrase,BLEU,200,0.02
+paraphrase,ROUGE-L,200,0.0
+paraphrase,LLM_judge,200,0.97
+lexical_variation,BERTScore_F1,200,0.74
+lexical_variation,BLEU,200,0.28
+lexical_variation,ROUGE-L,200,0.33
+lexical_variation,LLM_judge,200,0.985

@@ -269,3 +269,15 @@ Then re-run the scripts and **state in the video that you used a different model
 | NLTK punkt download fails | Ignore it. A regex sentence splitter is used automatically. |
 | `bash download_wmt18.sh` fails | The server may be down. Report it honestly and use the `reproduce_original.py` route. On Windows use Git Bash or WSL. |
 | `Activate.ps1 cannot be loaded` | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
+
+## v4 additions (RQ4 LLM judge, annotation agreement, snippet figures)
+
+```bash
+python scripts/llm_judge.py --task perturbations      # Qwen2.5-1.5B-Instruct on CPU, ~1 min
+python scripts/llm_judge.py --task wmt --n 500        # ~1.5 min
+python scripts/analyse_llm_judge.py                   # correlations, pairwise accuracy, figures
+python scripts/make_snippet_figures.py                # dataset snippet figures
+python scripts/make_annotation_sheet.py               # 56-row (20%) double-annotation sample
+# after the second annotator fills annotation/annotation_sheet_blind.csv:
+python scripts/annotation_agreement.py --blind annotation/annotation_sheet_blind.csv
+```

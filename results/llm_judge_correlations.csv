@@ -1,0 +1,9 @@
+dataset,target,metric,n,pearson_r,kendall_tau,spearman_rho
+perturbations,meaning_preserved_label(0/1),BERTScore_F1,280,0.0101,0.0214,0.0262
+perturbations,meaning_preserved_label(0/1),BLEU,280,-0.604,-0.4388,-0.5352
+perturbations,meaning_preserved_label(0/1),ROUGE-L,280,-0.626,-0.4222,-0.5125
+perturbations,meaning_preserved_label(0/1),LLM_judge,280,0.6161,0.6051,0.7398
+wmt17_de-en_min3ann,human_DA_z,BERTScore_F1,500,0.5374,0.3757,0.5279
+wmt17_de-en_min3ann,human_DA_z,BLEU,500,0.3735,0.2665,0.3875
+wmt17_de-en_min3ann,human_DA_z,ROUGE-L,500,0.4398,0.3047,0.4358
+wmt17_de-en_min3ann,human_DA_z,LLM_judge,500,0.4165,0.2733,0.3976
